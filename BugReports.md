@@ -38,7 +38,7 @@ Checkout proceeds to the customer information form with no items in the cart.
 7. Click "Continue"
 
 **Expected Result:**  
-An error message should appear stating the zip code must be numeric.
+Zip Code field should only accept numeric characters and enforce a valid length (e.g., 5 digits).
 
 **Actual Result:**  
 Checkout proceeds to the overview page with no validation error. The field accepts any input — letters, numbers, or a mix — with no length or format restrictions.
